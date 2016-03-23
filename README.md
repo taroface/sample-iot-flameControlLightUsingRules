@@ -1,17 +1,11 @@
 # Android App manages rules for users via SAMI 
 
-
-TODO: rewrite the README
-
-Build a remote light control system using SAMI, LED, Raspberry Pi, and an Android application. The system contains the following components:
-
- - An IoT device that acts on received commands, turn on/off the LED, and finally sends back the latest state.
- - An Android application that sends commands to the device and displays the latest state of the device.
+Build the Android app that accompanies the fire detector and smart lights. You will learn how to use the SAMI Rules APIs to programatically create and manage Rules for users within the app. 
 
 Introduction
 -------------
 
-The tutorial [Your first IoT remote control system](https://developer.samsungsami.io/sami/tutorials/your-first-iot-control-system.html) at http://developer.samsungsami.io/ describes what the system does and how it is implemented.
+The tutorial [Develop an Android app to manage SAMI Rules](https://blog.samsungsami.io/development/iot/mobile/rules/2016/03/23/develop-an-android-app-to-manage-sami-rules.html) at http://developer.samsungsami.io/ describes what the system does and how it is implemented.
 
 This repository contains the following software:
 
@@ -20,9 +14,9 @@ This repository contains the following software:
 Android Application
 -------------
 
-The root directory of the application is `sample-android-SAMIIoTSimpleController`.
+The root directory of the application is `sample-android-SAMIRules`.
 
-Consult [set up the Android project](https://developer.samsungsami.io/sami/tutorials/your-first-iot-control-system.html#set-up-the-android-project) in the tutorial to learn the prerequisites and installation steps.
+Consult [Installation and setup](https://blog.samsungsami.io/development/iot/mobile/rules/2016/03/23/develop-an-android-app-to-manage-sami-rules.html#installation-and-setup) in the post to learn the prerequisites and installation steps.
 
 More about SAMI
 ---------------
